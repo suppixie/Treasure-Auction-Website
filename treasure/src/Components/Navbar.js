@@ -3,6 +3,7 @@ import {Link, Routes, Route} from "react-router-dom";
 import Home from "./Home";
 import Profile from "./Profile";
 import CategoryPage from './Categories';
+import "./styles/navbar.css";
 
 function Navbar(){
     <Routes>
@@ -12,11 +13,10 @@ function Navbar(){
     </Routes>
     return(
          <div className="nav_container">
-            <button className="create_curation_btn" > Create</button>
             <ul className="nav-list">
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/" >Home</Link></li>
             <li><Link to="/Categories">Categories</Link></li>
-            <li><Link to="/Profile">Profile</Link></li>
+            <li ><Link to="/Profile">Profile</Link></li>
             </ul>
          </div>
     )

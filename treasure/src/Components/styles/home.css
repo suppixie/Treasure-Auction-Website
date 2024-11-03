@@ -1,0 +1,92 @@
+.container{
+    padding: 1vw;
+}
+.navbar{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create_curation_btn{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+}
+.create_curation_btn:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+.poster{
+    background-image: url(../../assets/9acb36236357056fa92a25049bc2af1e.jpg);
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 50vh;
+    width: 95%;
+    text-align: center;
+    align-content: center;
+    font-size: xx-large;
+    color:gold;
+}
+.content_container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 95%;
+    align-content: center;
+    text-align: left;
+
+}
+.tagline{
+    background-color: orangered;
+    color: white;
+    font-size: x-large;
+    width: 32%;
+    padding: 2vh 2vw;
+    margin-top: 5vh;
+    border-radius: 15px;
+}
+.curations{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2vw;
+    row-gap: 2vh;
+
+}
+.curations_card, .upcoming_card{
+    border-radius: 1vh;
+    background-color: black;
+    padding: 2vh;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+}
+.curations_card h4, .upcoming_card h4{
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.curations_card img , .upcoming_card img{
+    height: 25vh;
+    width: 10vw
+}
+.upcoming_card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    width: 20vw;
+    background-color: gold;
+    color: black;
+}
+.upcoming_card h2{
+    font-size: xx-large;
+    margin: 0;
+    padding: 1vh;
+}
+
